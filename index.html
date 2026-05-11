@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Work The Body Fitness by Tacarey Knight. Personal training, group fitness, strength, conditioning, and client sign ups."
+    />
+    <title>Work The Body Fitness | Tacarey Knight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Work The Body Fitness home">
+        <img src="assets/work-the-body-logo.jpeg" alt="Work The Body Fitness logo" />
+        <span>Work The Body Fitness</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#training">Training</a>
+        <a href="#coach">Coach</a>
+        <a href="#media">Media</a>
+        <a href="#signup">Sign up</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media">
+          <img src="assets/tacarey-knight-new.jpg" alt="Tacarey Knight with a client at the gym" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Fitness by TK</p>
+          <h1 id="hero-title">Work The Body Fitness</h1>
+          <p class="lead">
+            Personal training with Tacarey Knight for clients ready to build strength,
+            improve conditioning, and stay accountable.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#signup">Start training</a>
+            <a class="button secondary" href="#media">Watch training</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="strip" aria-label="Training focus areas">
+        <span>1:1 Coaching</span>
+        <span>Group Sessions</span>
+        <span>Strength</span>
+        <span>Conditioning</span>
+      </section>
+
+      <section class="section split" id="training">
+        <div>
+          <p class="eyebrow">Training options</p>
+          <h2>Programs built around your goals.</h2>
+        </div>
+        <div class="program-grid">
+          <article class="program-card">
+            <span>01</span>
+            <h3>Personal Training</h3>
+            <p>Focused coaching, form checks, and custom workouts for your current level.</p>
+          </article>
+          <article class="program-card">
+            <span>02</span>
+            <h3>Strength and Tone</h3>
+            <p>Progressive sessions for muscle, stability, posture, and better daily movement.</p>
+          </article>
+          <article class="program-card">
+            <span>03</span>
+            <h3>Conditioning</h3>
+            <p>High-energy workouts that build stamina, confidence, and consistency.</p>
+          </article>
+          <article class="program-card">
+            <span>04</span>
+            <h3>Online Coaching</h3>
+            <p>Remote guidance for clients who need structure outside the gym.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="coach" id="coach">
+        <div class="coach-copy">
+          <p class="eyebrow">Meet the coach</p>
+          <h2>Tacarey Knight</h2>
+          <p>
+            Tacarey helps clients train with purpose, sharpen technique, and create a fitness
+            routine they can actually keep. The approach is direct, motivating, and built around
+            steady progress.
+          </p>
+          <ul class="check-list">
+            <li>Beginner-friendly coaching and progressions</li>
+            <li>Strength, core, cardio, and movement quality</li>
+            <li>Support for in-person and remote clients</li>
+          </ul>
+        </div>
+        <img src="assets/work-the-body-logo.jpeg" alt="Work The Body Fitness brand mark" />
+      </section>
+
+      <section class="section media-section" id="media">
+        <div class="section-heading">
+          <p class="eyebrow">Training in motion</p>
+          <h2>See the work before you book.</h2>
+        </div>
+        <div class="video-grid">
+          <figure>
+            <video
+              src="assets/training-clip-3.mp4"
+              poster="assets/training-clip-3-poster.jpg"
+              controls
+              playsinline
+              preload="metadata"
+            ></video>
+            <figcaption>Focused training with real gym energy.</figcaption>
+          </figure>
+          <figure>
+            <video
+              src="assets/training-clip-4.mp4"
+              poster="assets/training-clip-4-poster.jpg"
+              controls
+              playsinline
+              preload="metadata"
+            ></video>
+            <figcaption>Strength work, coaching, and consistency.</figcaption>
+          </figure>
+          <figure>
+            <video
+              src="assets/training-clip-5.mp4"
+              poster="assets/training-clip-5-poster.jpg"
+              controls
+              playsinline
+              preload="metadata"
+            ></video>
+            <figcaption>Client progress built one session at a time.</figcaption>
+          </figure>
+          <figure>
+            <video
+              src="assets/training-clip-2.mp4"
+              poster="assets/training-clip-2-poster.jpg"
+              controls
+              playsinline
+              preload="metadata"
+            ></video>
+            <figcaption>Training energy clients can feel.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="signup" id="signup">
+        <div class="signup-copy">
+          <p class="eyebrow">Client sign up</p>
+          <h2>Ready to work?</h2>
+          <p>
+            Tell Tacarey what you want to build. Your details will open as an email draft so you
+            can send the request directly.
+          </p>
+          <div class="contact-block">
+            <a href="tel:+10000000000">Add phone number</a>
+            <a href="mailto:workthebodyfitness@example.com">workthebodyfitness@example.com</a>
+          </div>
+        </div>
+        <form class="signup-form" id="signupForm">
+          <label>
+            Full name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            Training goal
+            <select name="goal" required>
+              <option value="">Choose one</option>
+              <option>Lose weight</option>
+              <option>Build strength</option>
+              <option>Improve conditioning</option>
+              <option>Start a fitness routine</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Best training type
+            <select name="type" required>
+              <option value="">Choose one</option>
+              <option>Personal training</option>
+              <option>Group training</option>
+              <option>Online coaching</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label class="full">
+            Anything Tacarey should know?
+            <textarea name="message" rows="5" placeholder="Schedule, injuries, goals, or questions"></textarea>
+          </label>
+          <button class="button primary full" type="submit">Send sign up request</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <span>Work The Body Fitness</span>
+      <a href="#signup">Book training</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
