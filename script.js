@@ -1,6 +1,6 @@
 const form = document.querySelector("#signupForm");
 const note = document.querySelector("#formNote");
-const recipient = "workthebodyfitness@example.com";
+const recipient = "Tacarey6@gmail.com";
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
