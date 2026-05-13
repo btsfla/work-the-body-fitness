@@ -8,6 +8,7 @@ form.addEventListener("submit", (event) => {
   const data = new FormData(form);
   const name = data.get("name").trim();
   const email = data.get("email").trim();
+  const phone = data.get("phone").trim();
   const goal = data.get("goal");
   const type = data.get("type");
   const message = data.get("message").trim();
@@ -15,6 +16,7 @@ form.addEventListener("submit", (event) => {
   const body = [
     `Name: ${name}`,
     `Email: ${email}`,
+    `Phone: ${phone}`,
     `Training goal: ${goal}`,
     `Training type: ${type}`,
     "",
